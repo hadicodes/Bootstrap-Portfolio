@@ -1,0 +1,18 @@
+
+
+.jumbotron{
+	background-image: url("../images/hadipc.jpg");
+	background-size: cover;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	color: white;
+}
+
+.navbar navbar-default{
+	float: right;
+}
+
+.navbar-brand{
+	font-size: 28px;
+	color: red;
+}
