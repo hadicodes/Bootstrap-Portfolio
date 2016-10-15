@@ -1,5 +1,5 @@
 
-
+/*Jumbotron*/
 .jumbotron{
 	background-image: url("../images/hadipc.jpg");
 	background-size: cover;
@@ -8,17 +8,89 @@
 	color: white;
 }
 
-.navbar navbar-default{
-	float: right;
+/*Portfolio Jumbotron*/
+.port{
+	background-image: url("../images/lappy.jpg");
+	background-size: cover;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	color: white;
+}
+
+
+/*Navigation*/
+.navbar-right{
 }
 
 .navbar-brand{
-	font-size: 28px;
-	color: red;
+	font-size: 28px !important;
 }
 
+.nav {
+	font-size: 20px;
+	padding-right: 70px;
+}
+/*Navigation End*/
+
+
+/*Connect With Me Container*/
+.abt{
+
+}
+
+/* Social Icons for Connect with Me section*/
+.icons{
+	height: 48px;
+	text-align: center !important;
+}
+
+
+
+/*Portfolio Header*/
+.Checkout{
+	text-align: center !important; 
+	color: #fff;
+}
+
+/*Portfolio Images' Properties*/
+.pimg{
+	max-width: 450px;
+}
+
+
+/*Contact Form*/
 .contact-form{
 	font-size: 25px;
     padding-left: 120px;
     color: #1874CD;
 }
+
+
+
+/*.footer{
+	background-color: #191919;
+	text-align: center;
+	height: 60px !important;
+}*/
+
+/*sticky footer from
+/*http://ryanfait.com/html5-sticky-footer/*/
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important; 
+	height: 100%;
+	margin: 0 auto -105px; 
+}
+footer, .push {
+	height: 50px; 
+	text-align: center;
+}
+/*end sticky footer*/
